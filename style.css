@@ -1,0 +1,39 @@
+img {
+    width: 400px;
+    height: 300px;
+    padding: 8px;
+    border-radius: 20px;
+}
+
+h1 {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: #262626;
+    text-align: center;
+    font-size: 3em;
+    border-bottom: 2px solid #B8061E;
+    width: 500px;
+    border-right: 20px solid #B8061E;
+}
+
+.box {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    
+}
+
+.jungle {
+    font-size: 80px;
+    text-decoration: none;
+    color: RGB(63, 111, 0);
+    display: flex;
+    justify-content: flex-end;
+    margin-right: 8px;
+}
+
+.jungle:hover {
+    background-image:url(image/CA75F54B-6718-4117-86DF-AB2D8BF3E046-1024x1024-1.webp) ;
+    background-repeat: no-repeat;
+    color: transparent;
+    border-radius: 10px;
+}
